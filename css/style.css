@@ -128,11 +128,20 @@ footer{
     flex-direction: column;
     background-color: rgb(32, 32, 32);
     color:rgb(232,232,232);
+    padding: 1.5rem;
 }
 
-footer>img{
+footer>h4{
+    font-size: 1.5rem;
+}
+.logofooter{
+    display: flex;
     height: 5rem;
 }
+.logofooter>img{
+    height: 4rem;
+}
+
 
 footer>div>p>a{
     color: rgb(232,232,232);
