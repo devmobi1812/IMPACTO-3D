@@ -62,11 +62,19 @@ a{
     background-image: linear-gradient(rgba(5, 7, 12,0.75), rgba(5, 7, 12,0.75)), url(../img/historia.jpg);
 }
 
+.historia{
+    
+    background-image: linear-gradient(rgba(5, 7, 12,0.75), rgba(5, 7, 12,0.75)), url(../img/historia2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 #banner{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 30rem;
+    height: 100%;
     width: 100%;
 
     display: flex;
@@ -75,7 +83,21 @@ a{
     justify-content: center;
     text-align: center;
     color: rgb(232,232,232);
+    padding: 1rem 0 2rem 0;
     
+}
+
+#banner-solo-titulo{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(232,232,232);
+    height: 25rem;
 }
 
 #banner>h1{
@@ -87,6 +109,7 @@ a{
 #banner>p{
     padding: 0 5rem 0 5rem;
 }
+
 
 
 .btn{
@@ -153,7 +176,7 @@ a{
     color:rgb(232,232,232);
     padding: 1.5rem;
 }
-.service{
+.tarjeta{
     display: flex;
     flex-direction: column;
     background-color: rgb(37,37,37);
@@ -161,7 +184,7 @@ a{
     padding: 1.5rem;
 }
 
-.service>div{
+.tarjeta>div{
     background-color: rgb(32, 32, 32);
     display: flex;
     margin: 1rem;
@@ -192,7 +215,7 @@ footer>h4{
 }
 
 
-footer>div>p>a{
+footer>div>p>a, footer>div>a{
     color: rgb(232,232,232);
     text-decoration: none;
 }
