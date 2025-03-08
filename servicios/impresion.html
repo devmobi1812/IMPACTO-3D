@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impacto 3D - Impresiones</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script type="module" src="../js/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
 </head>
 <body>
     <header>
         <a id="logo" href="../index.html"><img src="../img/logo.png" alt=""></a>
+        <div id="boton-menu">
+            <img src="../img/menu.png" alt="">
+        </div>
     </header>
     <nav id="menu">
-        <ul>
-            <a id="inicio" href="../index.html"><li>Inicio</li></a>
-            <a id="servicios" href="../index.html#contenedor-servicios"><li>Servicios</li></a>
-            <a id="nosotros" href="../historia.html"><li>Nosotros</li></a>
-            <a id="contacto" href="../contacto.html"><li>Contacto</li></a>
+        <ul class="menu">
+            <li><a id="inicio" href="../index.html">Inicio</a></li>
+            <li><a id="servicios" href="../index.html#contenedor-servicios">Servicios</a></li>
+            <li><a id="nosotros" href="../historia.html">Nosotros</a></li>
+            <li><a id="contacto" href="../contacto.html">Contacto</a></li>
         </ul>
     </nav>
         
@@ -28,32 +33,37 @@
         <section class="impresion3d">
             <h2>¿Qué podemos imprimir para vos?</h2>
             <div class="impresiones">
-                <div><img src="../img/servicios/impresiones/a.jpg" alt=""></div>
-                <p>Nuestra tecnología nos permite crear desde objetos decorativos hasta piezas funcionales. Algunos ejemplos incluyen: </p>
-                <ul>
-                    <li>✅ Llaveros personalizados (para eventos, empresas, regalos, etc.).</li>
-                    <li>✅ Mates personalizados con nombres, logos o diseños únicos.</li>
-                    <li>✅ Miniaturas y figuras coleccionables en alta resolución.</li>
-                    <li>✅ Prototipos y piezas para proyectos de ingeniería y diseño.</li>
-                    <li>✅ Piezas de repuesto difíciles de encontrar en el mercado.</li>
-                    <li>✅ Modelos arquitectónicos para presentaciones y maquetas.</li>
-                    <li>✅ Artículos decorativos y utilitarios hechos a medida.</li>
-                </ul>
+                <div class="hijo1"><img src="../img/servicios/impresiones/a.jpg" alt=""></div>
+                <div class="grupo">
+                    <p>Nuestra tecnología nos permite crear desde objetos decorativos hasta piezas funcionales. Algunos ejemplos incluyen: </p>
+                    <ul>
+                        <li>✅ Llaveros personalizados (para eventos, empresas, regalos, etc.).</li>
+                        <li>✅ Mates personalizados con nombres, logos o diseños únicos.</li>
+                        <li>✅ Miniaturas y figuras coleccionables en alta resolución.</li>
+                        <li>✅ Prototipos y piezas para proyectos de ingeniería y diseño.</li>
+                        <li>✅ Piezas de repuesto difíciles de encontrar en el mercado.</li>
+                        <li>✅ Modelos arquitectónicos para presentaciones y maquetas.</li>
+                        <li>✅ Artículos decorativos y utilitarios hechos a medida.</li>
+                    </ul>
+                </div>
+                
             </div>
             <h2>Materiales disponibles</h2>
             <div class="impresiones">
-                <div><img src="../img/servicios/impresiones/b.jpg" alt=""></div>
-                <p>Para garantizar calidad y durabilidad, trabajamos con diversos materiales, cada uno seleccionado según su aplicación y resistencia: </p>
-                <ul>
-                    <li>🔹 PLA: Biodegradable, ideal para uso decorativo y prototipos.</li>
-                    <li>🔹 ABS: Resistente y duradero, apto para piezas mecánicas.</li>
-                    <li>🔹 PETG: Fuerte y flexible, resistente al agua y al calor.<br></li>
-                </ul>
+                <div class="hijo1"><img src="../img/servicios/impresiones/b.jpg" alt=""></div>
+                <div class="grupo">
+                    <p>Para garantizar calidad y durabilidad, trabajamos con diversos materiales, cada uno seleccionado según su aplicación y resistencia: </p>
+                    <ul>
+                        <li>🔹 PLA: Biodegradable, ideal para uso decorativo y prototipos.</li>
+                        <li>🔹 ABS: Resistente y duradero, apto para piezas mecánicas.</li>
+                        <li>🔹 PETG: Fuerte y flexible, resistente al agua y al calor.<br></li>
+                    </ul>
+                </div>
             </div>
             <h2>¿Cómo solicitar una impresión 3D?</h2>
             <div class="impresiones">
-                <div><img src="../img/servicios/impresiones/c.jpg" alt=""></div>
-                <ul>
+                <div class="hijo1"><img src="../img/servicios/impresiones/c.jpg" alt=""></div>
+                <ul class="grupo">
                     <li>💬 Paso 1: Contactanos y contanos tu idea.</li>
                     <li>📂 Paso 2: Si ya tenés un archivo 3D (STL, OBJ), nos lo enviás. Si no, podemos modelarlo por vos.</li>
                     <li>🎨 Paso 3: Elegimos el material, tamaño y acabado ideal.</li>
@@ -69,14 +79,13 @@
         </div>
     </main>
     <footer>
-        <a class="logofooter" href="index.html"><img src="img/logo.png" alt=""></a>
-        <h4>Impacto 3D Rauch</h4>
+        <a class="logofooter" href="../index.html"><img src="../img/logo.png" alt=""></a>
         <div>
             <p>Ubicación: <a href="https://www.google.com/maps/dir//-36.7763672,-59.0908624/">Av. San Martín 419, Rauch, 7203, Buenos Aires, Argentina</a></p>
             <p>Instagram: <a href="https://www.instagram.com/impacto3drauch">@impacto3drauch</a></p>
             <p>WhatsApp: <a href="https://wa.me/+5492494218587">+5492494218587</a></p>
         </div>
-        <div>© Impacto 3D Rauch by <a href="https://www.linkedin.com/in/ayrtonmobilio">Mobi Designer</a></div>
+        <div id="copy">© Impacto 3D Rauch by <a href="https://www.linkedin.com/in/ayrtonmobilio"> Mobi Designer</a></div>
     </footer>
 </body>
 </html>

@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impacto 3D - Prototipado</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script type="module" src="../js/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
 </head>
 <body>
     <header>
         <a id="logo" href="../index.html"><img src="../img/logo.png" alt=""></a>
+        <div id="boton-menu">
+            <img src="../img/menu.png" alt="">
+        </div>
     </header>
     <nav id="menu">
-        <ul>
-            <a id="inicio" href="../index.html"><li>Inicio</li></a>
-            <a id="servicios" href="../index.html#contenedor-servicios"><li>Servicios</li></a>
-            <a id="nosotros" href="../historia.html"><li>Nosotros</li></a>
-            <a id="contacto" href="../contacto.html"><li>Contacto</li></a>
+        <ul class="menu">
+            <li><a id="inicio" href="../index.html">Inicio</a></li>
+            <li><a id="servicios" href="../index.html#contenedor-servicios">Servicios</a></li>
+            <li><a id="nosotros" href="../historia.html">Nosotros</a></li>
+            <li><a id="contacto" href="../contacto.html">Contacto</a></li>
         </ul>
     </nav>
 
@@ -28,23 +33,25 @@
         <section class="prototipado-rapido">
             <h2>¿Qué podemos imprimir para vos?</h2>
             <div class="prototipado">
-                <div><img src="../img/servicios/prototipado/a.png" alt=""></div>
-                <p>En Impacto 3D Rauch, entendemos que la innovación requiere velocidad y precisión. Por eso, ofrecemos servicios de prototipado rápido, permitiéndote convertir ideas y diseños en modelos físicos en cuestión de horas o días, sin necesidad de moldes costosos o largos procesos de producción.</p>
+                <div class="hijo1"><img src="../img/servicios/prototipado/a.png" alt=""></div>
+                <p class="grupo">En Impacto 3D Rauch, entendemos que la innovación requiere velocidad y precisión. Por eso, ofrecemos servicios de prototipado rápido, permitiéndote convertir ideas y diseños en modelos físicos en cuestión de horas o días, sin necesidad de moldes costosos o largos procesos de producción.</p>
             </div>
             <h2>¿Para qué sirve el prototipado rápido?</h2>
             <div class="prototipado">
-                <div><img src="../img/servicios/prototipado/5473005.jpg" alt=""></div>
-                <p>El prototipado rápido es una solución ideal para diversas industrias y necesidades, tales como:</p>
-                <ul>
-                    <li>Creación de piezas de prueba antes de la producción en masa.</li>
-                    <li>Modelos físicos de proyectos para presentaciones y validaciones.</li>
-                    <li>Desarrollo de productos antes de invertir en fabricación.</li>
-                </ul>
+                <div class="hijo1"><img src="../img/servicios/prototipado/5473005.jpg" alt=""></div>
+                <div class="grupo">
+                    <p>El prototipado rápido es una solución ideal para diversas industrias y necesidades, tales como:</p>
+                    <ul>
+                        <li>Creación de piezas de prueba antes de la producción en masa.</li>
+                        <li>Modelos físicos de proyectos para presentaciones y validaciones.</li>
+                        <li>Desarrollo de productos antes de invertir en fabricación.</li>
+                    </ul>
+                </div>
             </div>
             <h2>Ventajas del prototipado rápido</h2>
             <div class="prototipado">
-                <div><img src="../img/servicios/prototipado/c.png" alt=""></div>
-                <ul class="li-sin-estilo">
+                <div class="hijo1"><img src="../img/servicios/prototipado/c.png" alt=""></div>
+                <ul class="li-sin-estilo grupo">
                     <li>✅ Ahorro de tiempo: Creación de modelos en horas, acelerando el proceso de desarrollo.</li>
                     <li>✅ Menor costo: No requiere producción en masa para validar un diseño.</li>
                     <li>✅ Flexibilidad total: Fácil modificación y ajustes sin grandes inversiones.</li>
@@ -53,8 +60,8 @@
             </div>
             <h2>Proceso de trabajo</h2>
             <div class="prototipado">
-                <div><img src="../img/servicios/prototipado/d.png" alt=""></div>
-                <ol>
+                <div class="hijo1"><img src="../img/servicios/prototipado/d.png" alt=""></div>
+                <ol class="grupo">
                     <li>Nos enviás tu diseño en 3D (STL, OBJ) o te ayudamos a crearlo.</li>
                     <li>Seleccionamos el material y la tecnología de impresión adecuada.</li>
                     <li>Imprimimos el prototipo con alta precisión y calidad.</li>
@@ -68,14 +75,13 @@
         </div>
     </main>
     <footer>
-        <a class="logofooter" href="index.html"><img src="img/logo.png" alt=""></a>
-        <h4>Impacto 3D Rauch</h4>
+        <a class="logofooter" href="../index.html"><img src="../img/logo.png" alt=""></a>
         <div>
             <p>Ubicación: <a href="https://www.google.com/maps/dir//-36.7763672,-59.0908624/">Av. San Martín 419, Rauch, 7203, Buenos Aires, Argentina</a></p>
             <p>Instagram: <a href="https://www.instagram.com/impacto3drauch">@impacto3drauch</a></p>
             <p>WhatsApp: <a href="https://wa.me/+5492494218587">+5492494218587</a></p>
         </div>
-        <div>© Impacto 3D Rauch by <a href="https://www.linkedin.com/in/ayrtonmobilio">Mobi Designer</a></div>
+        <div id="copy">© Impacto 3D Rauch by <a href="https://www.linkedin.com/in/ayrtonmobilio"> Mobi Designer</a></div>
     </footer>
 </body>
 </html>
