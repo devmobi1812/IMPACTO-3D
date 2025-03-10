@@ -6,6 +6,7 @@
 
 */
 
+/*  COMPATIBILIDAD CON IOS PARA QUE NO SE HAGA ZOOM*/
 html{
     width: 100%;
     max-width: 100%;
