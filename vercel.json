@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/contacto", "destination": "/contacto.html" },
+    { "source": "/historia", "destination": "/historia.html" },
+    { "source": "/prototipado", "destination": "/prototipado.html" },
+    { "source": "/impresion", "destination": "/impresion.html" },
+    { "source": "/fabricacion", "destination": "/fabricacion.html" }
+  ],
+  "redirects": [
+    { "source": "/index", "destination": "/", "permanent": true }
+  ]
+}
