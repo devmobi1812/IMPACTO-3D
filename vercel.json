@@ -3,9 +3,9 @@
     { "source": "/", "destination": "/index.html" },
     { "source": "/contacto", "destination": "/contacto.html" },
     { "source": "/historia", "destination": "/historia.html" },
-    { "source": "/prototipado", "destination": "/prototipado.html" },
-    { "source": "/impresion", "destination": "/impresion.html" },
-    { "source": "/fabricacion", "destination": "/fabricacion.html" }
+    { "source": "/servicios/prototipado", "destination": "/servicios/prototipado.html" },
+    { "source": "/servicios/impresion", "destination": "/servicios/impresion.html" },
+    { "source": "/servicios/fabricacion", "destination": "/servicios/fabricacion.html" }
   ],
   "redirects": [
     { "source": "/index", "destination": "/", "permanent": true }
